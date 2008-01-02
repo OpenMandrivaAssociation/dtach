@@ -7,6 +7,7 @@ License: GPL
 URL: http://dtach.sourceforge.net
 Group:   Terminals
 Source: http://prdownloads.sourceforge.net/dtach/dtach-%{version}.tar.bz2
+Buildroot: %{_tmppath}/%{name}-%{version}-root
  
 %description
 
