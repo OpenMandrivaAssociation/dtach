@@ -10,7 +10,6 @@ Source: http://prdownloads.sourceforge.net/dtach/dtach-%{version}.tar.bz2
 Buildroot: %{_tmppath}/%{name}-%{version}-root
  
 %description
-
 dtach is a program that emulates the detach feature of screen, with
 less overhead.  It is designed to be transparent and un-intrusive; it
 avoids interpreting the input and output between attached terminals
