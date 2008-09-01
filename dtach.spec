@@ -1,8 +1,8 @@
 
 Summary: A simple program that emulates the detach feature of screen
 Name: dtach
-Version: 0.7
-Release: %mkrel 2
+Version: 0.8
+Release: %mkrel 1
 License: GPL
 URL: http://dtach.sourceforge.net
 Group:   Terminals
