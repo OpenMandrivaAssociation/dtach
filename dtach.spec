@@ -33,7 +33,7 @@ install -m 644 dtach.1 $RPM_BUILD_ROOT/%{_mandir}/man1/dtach.1
 %clean
 make clean
 rm -rf $RPM_BUILD_ROOT
-rm -rf $RPM_BUILD_DIR/%{name}-%{version}
+rm -rf %{_builddir}/%{name}-%{version}
 
 %files
 %defattr(-,root,root,-)
