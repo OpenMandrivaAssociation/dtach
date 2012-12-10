@@ -33,7 +33,7 @@ install -m 644 dtach.1 $RPM_BUILD_ROOT/%{_mandir}/man1/dtach.1
 %clean
 make clean
 rm -rf $RPM_BUILD_ROOT
-rm -rf %{_builddir}/%{name}-%{version}
+rm -rf $RPM_BUILD_DIR/%{name}-%{version}
 
 %files
 %defattr(-,root,root,-)
@@ -42,4 +42,41 @@ rm -rf %{_builddir}/%{name}-%{version}
 %{_mandir}/*/*
 
 
+
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.8-3mdv2011.0
++ Revision: 617905
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0.8-2mdv2010.0
++ Revision: 428392
+- rebuild
+
+* Mon Sep 01 2008 Gaëtan Lehmann <glehmann@mandriva.org> 0.8-1mdv2009.0
++ Revision: 278370
+- update to new version 0.8
+
+* Mon Jun 16 2008 Thierry Vignaud <tv@mandriva.org> 0.7-2mdv2009.0
++ Revision: 220204
+- rebuild
+- fix spacing at top of description
+- kill re-definition of %%buildroot on Pixel's request
+- fix summary-ended-with-dot
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Gaëtan Lehmann <glehmann@mandriva.org>
+    - rebuild
+
+
+* Mon Mar 05 2007 Nicolas Lécureuil <neoclust@mandriva.org> 0.7-2mdv2007.0
++ Revision: 132760
+- Fix group
+
+* Tue Jan 02 2007 Gaëtan Lehmann <glehmann@mandriva.org> 0.7-1mdv2007.1
++ Revision: 103473
+- Import dtach
 
