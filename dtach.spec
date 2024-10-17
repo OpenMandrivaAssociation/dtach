@@ -4,7 +4,7 @@ Name: dtach
 Version: 0.8
 Release: 4
 License: GPL
-URL: http://dtach.sourceforge.net
+URL: https://dtach.sourceforge.net
 Group:   Terminals
 Source: http://prdownloads.sourceforge.net/dtach/dtach-%{version}.tar.bz2
 Buildroot: %{_tmppath}/%{name}-%{version}-root
