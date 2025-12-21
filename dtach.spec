@@ -9,6 +9,11 @@ Group:   Terminals
 Source: http://prdownloads.sourceforge.net/dtach/dtach-%{version}.tar.bz2
 Buildroot: %{_tmppath}/%{name}-%{version}-root
  
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 dtach is a program that emulates the detach feature of screen, with
 less overhead.  It is designed to be transparent and un-intrusive; it
